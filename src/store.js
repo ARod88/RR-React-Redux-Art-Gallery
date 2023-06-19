@@ -6,5 +6,5 @@ export const store = configureStore({
     reducer: {
         data: dataReducer
     },
-    middleware: [logger]
+    middleware: [ logger ]
 })
